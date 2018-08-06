@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Антон Карташов](https://up.htmlacademy.ru/htmlcss/22/user/347239).
+* Наставник: [Антон Попов](https://up.htmlacademy.ru/htmlcss/22/user/78239).
 
 ---
 

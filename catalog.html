@@ -15,7 +15,7 @@
                     <li><a href='info.html'>Информация</a></li>
                     <li><a href='news.html'>Новости</a></li>
                     <li><a href='price.html'>Прайс-лист</a></li>
-                    <li><a href='catalog.html' class='site-navigation-selected'>Магазин</a></li>
+                    <li><a href='catalog.html' class='site-navigation-current'>Магазин</a></li>
                     <li><a href='contacts.html'>Контакты</a></li>
                 </ul>
                 <ul class='user-navigation'>
@@ -25,11 +25,11 @@
         </header>
 
         <main class='container'>
-            <h1>Средства для ухода</h1>
+            <h1 class='page-'>Средства для ухода</h1>
             <ul class='breadcrumbs'>
-                <li><a href='../..' class='breadcrumbs-item'>Главная</a></li>
-                <li><a href='..' class='breadcrumbs-item'>Магазин</a></li>
-                <li><a class='breadcrumbs-item current'>Средства для ухода</a></li>
+                <li class='breadcrumbs-item'><a href='index.html'>Главная</a></li>
+                <li class='breadcrumbs-item'><a href='catalog.html' >Магазин</a></li>
+                <li class='breadcrumbs-item breadcrumbs-item-current'>Средства для ухода</li>
             </ul>
 
             <form class='filters'>
@@ -52,35 +52,62 @@
             </form>
 
             <section class='catalog'>
-                <a href='#' class='catalog-item'>
-                    <img class='catalog-item-image' src='1.png' width='200' height='200' alt='Набор для путешествий'>
-                    <p class='catalog-item-title'>Набор для путешествий</p>
-                    <p class='catalog-item-control'>
-                        <span class='catalog-item-price'>2 900 Р</span>
-                        <span class='button catalog-item-button' type='button'>Купить</span>
-                    </p>
-                </a>
-                <a href='#' class='catalog-item'>
-                    <img class='catalog-item-image' src='1.png' width='200' height='200' alt='Набор для путешествий'>
-                    <p class='catalog-item-title'>Набор для путешествий</p>
-                    <p class='catalog-item-control'>
-                        <span class='catalog-item-price'>2 900 Р</span>
-                        <span class='button catalog-item-button' type='button'>Купить</span>
-                    </p>
-                </a>
-                <a href='#' class='catalog-item'>
-                    <img class='catalog-item-image' src='1.png' width='200' height='200' alt='Набор для путешествий'>
-                    <p class='catalog-item-title'>Набор для путешествий</p>
-                    <p class='catalog-item-control'>
-                        <span class='catalog-item-price'>2 900 Р</span>
-                        <span class='button catalog-item-button' type='button'>Купить</span>
-                    </p>
-                </a>
-                <p class='pagination'>
-                    <span class='button page-button' type='button'>1</span>
-                    <span class='button page-button' type='button'>1</span>
-                    <span class='button page-button selected' type='button'>1</span>
-                    <span class='button page-button' type='button'>4</span>
+                <h2 class='visually-hidden'>Список товаров</h2>
+
+                <ul class='catalog-list'>
+                    <li class='catalog-item'>
+                        <h3>
+                            <a href='catalog-item.html'>
+                                <span class='catalog-category'>Набор для путешествий</span>
+                                <span class='catalog-item-title'>Baxter of California</span>
+                            </a>
+                        </h3>
+                        <a href='catalog-item.html'>
+                            <img class='catalog-item-image' src='1.png' width='200' height='200' alt='Baxter of California'>
+                        </a>
+                        <p class='catalog-item-controls'>
+                            <b class='catalog-item-price'>2 900 Р</b>
+                            <span class='button catalog-item-button' type='button'>Купить</span>
+                        </p>
+                    <li>
+
+                    <li class='catalog-item'>
+                        <h3>
+                            <a href='catalog-item.html'>
+                                <span class='catalog-category'>Набор для путешествий</span>
+                                <span class='catalog-item-title'>Baxter of California</span>
+                            </a>
+                        </h3>
+                        <a href='catalog-item.html'>
+                            <img class='catalog-item-image' src='1.png' width='200' height='200' alt='Baxter of California'>
+                        </a>
+                        <p class='catalog-item-controls'>
+                            <b class='catalog-item-price'>2 900 Р</b>
+                            <span class='button catalog-item-button' type='button'>Купить</span>
+                        </p>
+                    <li>
+
+                    <li class='catalog-item'>
+                        <h3>
+                            <a href='catalog-item.html'>
+                                <span class='catalog-category'>Набор для путешествий</span>
+                                <span class='catalog-item-title'>Baxter of California</span>
+                            </a>
+                        </h3>
+                        <a href='catalog-item.html'>
+                            <img class='catalog-item-image' src='1.png' width='200' height='200' alt='Baxter of California'>
+                        </a>
+                        <p class='catalog-item-controls'>
+                            <b class='catalog-item-price'>2 900 Р</b>
+                            <span class='button catalog-item-button' type='button'>Купить</span>
+                        </p>
+                    <li>
+                </ul>
+                <ul class='pagination-list'>
+                    <li class='pagination-item'><a href='#'>1</a></span>
+                    <li class='pagination-item'><a href='#'>2</a></span>
+                    <li class='pagination-item pagination-item-current'><a>3</a></span>
+                    <li class='pagination-item'><a href='#'>4</a></span>
                 </p>
 
 
@@ -105,5 +132,12 @@
                 Разработкано:<br>
                 <a href='#'>HTML Academy</a></p>
         </footer>
+
+        <section class="modal modal-login">
+            <h2>Личный кабинет</h2>
+            <p>Введите свой логин и пароль.</p>
+            <!-- Здесь будет форма -->
+            <span class="modal-close">×</span>
+        </section>
     </body>
 </html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang='ru'>
+    <head>
+        <meta charset='utf-8'>
+        <title>Магазин — HTML Academy: Барбершоп</title>
+    </head>
+
+    <body>
+        <header class='main-header'>
+            <nav class='main-navigation'>
+                <a href='index.html' class='main-header-logo'>
+                    <img src='img/logo.svg' width='111' height='24' alt='Барбершоп «Бородинский»'>
+                </a>
+                <ul class='site-navigation'>
+                    <li><a href='info.html'>Информация</a></li>
+                    <li><a href='news.html'>Новости</a></li>
+                    <li><a href='price.html'>Прайс-лист</a></li>
+                    <li><a href='catalog.html' class='site-navigation-selected'>Магазин</a></li>
+                    <li><a href='contacts.html'>Контакты</a></li>
+                </ul>
+                <ul class='user-navigation'>
+                    <li><a class='login-link' href='#'>Вход</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class='container'>
+            <h1>Средства для ухода</h1>
+            <ul class='breadcrumbs'>
+                <li><a href='../..' class='breadcrumbs-item'>Главная</a></li>
+                <li><a href='..' class='breadcrumbs-item'>Магазин</a></li>
+                <li><a class='breadcrumbs-item current'>Средства для ухода</a></li>
+            </ul>
+
+            <form class='filters'>
+                <h2 class='visually-hidden'>Фильтры</h2>
+                <h3>Производители</h3>
+                <!-- Форма
+                <input type='checkbox' name='manufacturer'>Baxter of California</input>
+                <input type='checkbox' name='manufacturer'>Mr. Nutty</input>
+                <input type='checkbox' name='manufacturer'>Suavecito</input>
+                -->
+
+                <h3>Группы товаров</h3>
+                <!-- Форма
+                <input type='radio' name='group'>Baxter of California</input>
+                <input type='radio' name='group'>Mr. Nutty</input>
+                <input type='radio' name='group'>Suavecito</input>
+                -->
+
+                <span type='button'>Показать</span>
+            </form>
+
+            <section class='catalog'>
+                <a href='#' class='catalog-item'>
+                    <img class='catalog-item-image' src='1.png' width='200' height='200' alt='Набор для путешествий'>
+                    <p class='catalog-item-title'>Набор для путешествий</p>
+                    <p class='catalog-item-control'>
+                        <span class='catalog-item-price'>2 900 Р</span>
+                        <span class='button catalog-item-button' type='button'>Купить</span>
+                    </p>
+                </a>
+                <a href='#' class='catalog-item'>
+                    <img class='catalog-item-image' src='1.png' width='200' height='200' alt='Набор для путешествий'>
+                    <p class='catalog-item-title'>Набор для путешествий</p>
+                    <p class='catalog-item-control'>
+                        <span class='catalog-item-price'>2 900 Р</span>
+                        <span class='button catalog-item-button' type='button'>Купить</span>
+                    </p>
+                </a>
+                <a href='#' class='catalog-item'>
+                    <img class='catalog-item-image' src='1.png' width='200' height='200' alt='Набор для путешествий'>
+                    <p class='catalog-item-title'>Набор для путешествий</p>
+                    <p class='catalog-item-control'>
+                        <span class='catalog-item-price'>2 900 Р</span>
+                        <span class='button catalog-item-button' type='button'>Купить</span>
+                    </p>
+                </a>
+                <p class='pagination'>
+                    <span class='button page-button' type='button'>1</span>
+                    <span class='button page-button' type='button'>1</span>
+                    <span class='button page-button selected' type='button'>1</span>
+                    <span class='button page-button' type='button'>4</span>
+                </p>
+
+
+            </section>
+        </main>
+
+        <footer class='main-footer'>
+            <p class='footer-contacts'>
+                Барбершоп «Бородинский»<br>Адрес: г.&nbsp;Санкт-Петербург, ул.&nbsp;Б.&nbsp;Бонюшенная, д.&nbsp;19/18<br><a href='#'>Как нас найти?</a><br>Телефон: +7 (495) 666-02-66
+            </p>
+
+            <div class='footer-social'>
+                <p>Давайте дружить!</p>
+                <ul>
+                    <li><a class='social-button' href='#'>ВКонтакте</a></li>
+                    <li><a class='social-button' href='#'>Facebook</a></li>
+                    <li><a class='social-button' href='#'>Instagram</a></li>
+                </ul>
+            </div>
+
+            <p class='footer-copyright'>
+                Разработкано:<br>
+                <a href='#'>HTML Academy</a></p>
+        </footer>
+    </body>
+</html>

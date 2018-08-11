@@ -1,12 +1,103 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
-  </head>
-  <body>
+<html lang='ru'>
+    <head>
+        <meta charset='utf-8'>
+        <title>HTML Academy: Барбершоп</title>
+    </head>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
+    <body>
+        <header>
+            <img class='logo-borodinsky' width='200' height='100'></img>
+            <nav class='main-menu'>
+                <ul>
+                    <li><a class='main-menu-item' href='#'>Информация</a></li>
+                    <li><a class='main-menu-item' href='#'>Новости</a></li>
+                    <li><a class='main-menu-item' href='#'>Прайс-лист</a></li>
+                    <li><a class='main-menu-item' href='#'>Магазин</a></li>
+                    <li><a class='main-menu-item' href='#'>Контакты</a></li>
+                </ul>
+            <p><a class='main-menu-item' href='#'>Вход</a></p>
+        </header>
 
-  </body>
+
+
+        <main>
+            <h1 class='hidden'>Барбершоп «Бородинский»</h1>
+
+
+            <h2 class='hidden'>Преимущества</h2>
+            <ul>
+                <li>
+                    <h3>Быстро</h3>
+                    <p>Мы делаем свою работу быстро! Два часа пролетят незаметно, и&nbsp;вы счастливый обладатель стильной стрижки-минутки!</p>
+                </li>
+                <li>
+                    <h3>Круто</h3>
+                    <p>Забудьте, как вы стриглись раньше. Мы сделаем из&nbsp;вас звезду футбола или кино! Во&nbsp;всяком случае внешне.</p>
+                </li>
+                <li>
+                    <h3>Дорого</h3>
+                    <p>Наши мастера&nbsp;— профессионалы своего дела и не&nbsp;могут стоить дешево. К&nbsp;тому&nbsp;же, разве цена не&nbsp;дает определенный статус?</p>
+                </li>
+            </ul>
+
+
+            <div class='brick'>
+                <section class='news'>
+                    <h2 class='title'>Новости</h2>
+                    <section class='new'>
+                        <p>Нам, наконец-то, завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки.</p>
+                        <time date='2018-01-11'>11 января</time>
+                    </section>
+                    <section class='new'>
+                        <p>В нашей команде пополнение: Борис «Бритва» Стригунец, обладатель множества титулов и наград, пополнил наши стройные ряды.</p>
+                        <time date='2018-01-18'>18 января</time>
+                    </section>
+
+                <section class='gallery'>
+                    <h2 class='title'>Фотогалерея</h2>
+                    <ul>
+                        <li><img class='photo' src='1.png' width='400' height='200'></li>
+                        <li><img class='photo' src='2.png' width='400' height='200'></li>
+                        <li><img class='photo' src='3.png' width='400' height='200'></li>
+                    </ul>
+                    <input type='button' value='Назад'>
+                    <input type='button' value='Вперед'>
+            </div>
+
+
+            <div class='brick'>
+                <section class='contacts'>
+                    <h2 class='title'>Контактная информация</h2>
+                    <p>Барбершоп «Бородинский»<br>Адрес: г.&nbsp;Санкт-Петербург, ул.&nbsp;Б.&nbsp;Бонюшенная, д.&nbsp;19/18<br><a href='#'>Как нас найти?</a><br>Телефон: <nobr>+7 (495) 666-02-66</nobr></p>
+                    <p>Время работы:<br>
+                    Пн—пт: с 10:00 до 22:00<br>
+                    Сб—вс: с 10:00 до 19:00</p>
+                </section>
+
+                <section class='apply'>
+                    <h2 class='title'>Контактная информация</h2>
+                </section>
+            </div>
+        </main>
+
+
+
+        <footer>
+            <section class='contacts'>
+                <p>Барбершоп «Бородинский»<br>Адрес: г.&nbsp;Санкт-Петербург, ул.&nbsp;Б.&nbsp;Бонюшенная, д.&nbsp;19/18<br><a href='#'>Как нас найти?</a><br>Телефон: <nobr>+7 (495) 666-02-66</nobr></p>
+            </section>
+            <section class='social'>
+                <p>Давайте дружить!</p>
+                <ul>
+                    <li><a href='#'>ВКонтакте</a></li>
+                    <li><a href='#'>Facebook</a></li>
+                    <li><a href='#'>Instagram</a></li>
+                </ul>
+            </section>
+            <section class='made-by'>
+                <p>Разработкано:<br><a href='#'>HTML Academy</a></p>
+            </section>
+        </footer>
+    </body>
 </html>
